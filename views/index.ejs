@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app.todos">
+<!-- <html lang="en"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node/Angular Todos</title>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- <script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js">
+    </script>
+    <script src="assets/js/main/app.js"></script>
+</head>
+
+<body ng-controller="todoController">
+<!-- <body> -->
+    <div class="container">
+        <!-- <h1>Node ToDo</h1> -->
+        <div class="jumbotron text-center">
+            <!-- <h1>{{appName}} <span style="color: blue;">10</span></h1> -->
+            <h1>{{appName}} <span class="label label-info">10</span></h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <div class="checkbox">
+                    <input type="checkbox">Học NodeJS!!
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg text-center">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
